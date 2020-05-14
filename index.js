@@ -2,10 +2,11 @@
 
 
 document.addEventListener( "DOMContentLoaded", function () {
-    updateDOM()
+    domUpdate()
   } );
 
-  function updateDOM() {
+  function domUpdate() {
     document.getElementById( "text" )
       .innerHTML = "This is really cool!";
   }
+
