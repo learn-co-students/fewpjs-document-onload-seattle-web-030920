@@ -6,7 +6,8 @@ document.addEventListener( "DOMContentLoaded", function () {
   } );
 
   function domUpdate() {
-    document.getElementById( "text" )
-      .innerHTML = "This is really cool!";
+   const test =  document.getElementById( "text" )
+      test.innerHTML = "This is really cool!";
   }
+
 
